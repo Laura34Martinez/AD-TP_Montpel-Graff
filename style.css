@@ -101,7 +101,7 @@ em:hover {
 
 /*Artistes*/
 h2 {
-  background-image: url(img-Projet-Ville-Mtp/cover1.png);
+  background-image: url('img-Projet-Ville-Mtp/cover1_2.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -163,7 +163,6 @@ h3 {
 }
 
 p {
-  font-size: 10px;
   margin: 0px 50px 0px 50px;
   line-height: 20px;
   font-size: 12px;
@@ -180,7 +179,7 @@ video {
 
 /* Galerie */
 .h2-2 h2{
-  background-image: url(img-Projet-Ville-Mtp/Artist.jpg);
+  background-image: url('img-Projet-Ville-Mtp/Artists_2.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -252,7 +251,7 @@ video {
 
 /* Footer */
 footer {
-  background-image: url(img-Projet-Ville-Mtp/graff3.png);
+  background-image: url('img-Projet-Ville-Mtp/Graff3_2.jpg');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -358,18 +357,100 @@ hr {
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
   h1 {
     font-size: 40px;
   }
-
   em {
     font-size: 15px;
   }
+  nav ul li a {
+    font-size: 14px;
+    margin: 0 15px 0 15px;
+  }
+  h2 {
+    font-size: 30px;
+  }
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 900px) {
+  h3 {
+    margin: 10px 10px 20px 10px;
+  }
+  p {
+    margin: 0px 30px 0px 30px;
+    line-height: 20px;
+    font-size: 10px;
+    text-align: center;
+  }
+  .séparateur {
+    height: 140px;
+    width: 100%;
+  }
   footer h3 {
     font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 20px;
+    padding: 50px;
+  }
+  .h2-2 h2{
+    font-size: 20px;
+    padding: 50px;
+  }
+  footer {
+    height: 300px;
+  }
+  h3 {
+    margin: 20px 10px 20px 10px;
+  }
+  .séparateur {
+    height: 120px;
+    width: 100%;
+  }
+  footer h3 {
+    font-size: 16px;
+  }
+  hr {
+    border-top: 2px solid rgba(250, 235, 215, 0.616);
+    width: 50%;
+  }
+  footer ul {
+    padding: 10px 0px 0px 0px;
+    font-size: 8px;
+    line-height: 20px;
+  }
+  .page-instagram {
+    padding: 10px 0px 0px 0px;
+    font-size: 8px;
+    line-height: 20px;
+  }
+  .fas {
+    font-size: 60px;
+    padding-top: 20px;
+    text-shadow: 5px 5px 20px black;
+  }
+  .fab {
+    font-size: 60px;
+    padding-top: 20px;
+    text-shadow: 5px 5px 20px black;
+  }
+  .black-background1 {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  h1 {
+    font-size: 20px;
+  }
+  em {
+    font-size: 10px;
   }
 }
